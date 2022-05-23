@@ -60,11 +60,11 @@ public class Main {
 
 
         int suma = 0;
-        //ArrayList<Planinar> sviPlaninari=new ArrayList<>();
         for (Planinar p : sviPlaninari) {
-            if (p instanceof Alpinista) {
+//            if (p instanceof Alpinista) {
+//        ako hocemo clanarinu samo za alpiniste 
                 suma += p.clanarina();
-            }
+
         }
         System.out.println("Ukupna clanarina je: " + suma);
 
